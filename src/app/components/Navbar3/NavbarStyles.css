@@ -1,0 +1,30 @@
+#header3 img {
+	height: 80px;
+	margin-left: 40px;
+}
+
+#header3 {
+	margin-bottom: 100px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 25px 0 black;
+}
+
+#header3 * {
+	display: inline;
+}
+
+#header3 li {
+	margin: 20px;
+}
+
+#hedaer3 nav>ul>li>a {
+	color: black;
+	text-decoration: none;
+}
