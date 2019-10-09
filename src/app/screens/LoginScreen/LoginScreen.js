@@ -53,10 +53,6 @@ export default function LoginScreen(props){
 	return(
 		<div>
 			<Loader3/>
-			{
-			/*
-			<Loader/>
-			<Loader2/>
 			<AmazingCard
 				header='Coteforce'
 				body='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis veniam cum modi, asperiores, fugiat minus, doloribus aliquam omnis rerum saepe reiciendis ipsum corporis cupiditate voluptatibus. Suscipit molestias consectetur qui alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis animi nisi quae culpa ad dolorum quas rerum obcaecati fuga atque. Eum, nesciunt ratione. Consequuntur velit dolorum nisi. Repudiandae, omnis, corrupti?'
@@ -64,6 +60,10 @@ export default function LoginScreen(props){
 				color='#EBCD56'
 				img='https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
 			/>
+			{
+			/*
+			<Loader/>
+			<Loader2/>
 			<AvatarCard/>
 			<Navbar list={navItems}/>
 			<div style={{margin: 10, padding: 10, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
